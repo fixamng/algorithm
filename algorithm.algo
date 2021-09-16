@@ -1,0 +1,19 @@
+ALGORITHM count_sentence
+Var 
+    sent = all alphabets(a,b,c...) and symbols(.,/ )
+    vow = a, e, i, o, u
+    word = > 1 alphabets
+Begin
+    read (sent)
+        add up,
+        return value
+    read (sent)
+        identify vow,
+        add up vow,
+        return value
+    read (sent) until
+        "space" then stop,
+        count alphabets,
+        store value,
+        continue count and repeat process,
+        return count of every innstance above. 
