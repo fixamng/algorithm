@@ -13,7 +13,7 @@ Begin
         return value
     read (sent) until
         "space" then stop,
-        count alphabets,
+        count alphabets ,
         store value,
         continue count and repeat process,
-        return count of every innstance above. 
+        return count of every innstance above.
